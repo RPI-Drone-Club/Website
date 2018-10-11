@@ -1,13 +1,5 @@
-:root {
-  --charcoal-gray: #36454F;
-}
-
 .btn-icon {
   z-index: 3;
-}
-
-.footer {
-	text-align: center;
 }
 
 .footer .copyright {
@@ -16,7 +8,6 @@
 }
 
 section {
-  background: var(--charcoal-gray);
   padding: 70px 0;
   position: relative;
 }
@@ -32,7 +23,6 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .footer {
-  background: var(--charcoal-gray) !important;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -40,16 +30,11 @@ p, h1, h2, h3, h4, h5 {
   text-align: center;
 }
 
-blockquote {
-  padding: 0% 5% 0% 5%;
-}
-
 html {
   height: 100%;
 }
 
 body {
-  background: var(--charcoal-gray) !important;
   color: white;
   font-size: 16px;
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
@@ -85,24 +70,6 @@ body {
   max-height: 440px;
 }
 
-.profile-page .page-header {
-  min-height: 550px;
-}
-
-.profile-page .button-container {
-  text-align: center;
-  margin-top: -99px;
-}
-
-.page-header.page-header-image {
-  position: absolute;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
 .page-header {
   height: 100vh;
   max-height: 1050px;
@@ -125,117 +92,9 @@ a {
   color: #ffa554;
 }
 
-.dropdown-menu {
-}
-
 td {
   padding-bottom: 6px;
 }
-
-.profile-page .photo-container {
-  margin-top: 30px;
-  width: 200px;
-  height: 200px;
-  background: rgba(255,255,255,0.8);
-}
-
-#indexTitleText {
-  max-width:380px;
-  background: rgba(54, 69, 79, 0.9);
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
-}
-
-#indexTitleText h3 {
-  font-size: 30px;
-}
-
-.profile-page h5.description {
-  text-align: left;
-}
-
-.portfolio-row canvas {
-  max-width: 100%;
-  max-height: 100%;
-  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
-}
-
-.portfolio-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 100px;
-  padding-bottom: 150px;
-}
-
-.portfolio-row a {
-  text-decoration-line: none !important;
-}
-
-.portfolio-row p {
-  width: 100%;
-  color: white;
-  position: absolute;
-  top: 20%;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-align: left;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
-
-  visibility: hidden;
-}
-
-.portfolio-row a:hover canvas {
-  opacity: 0.05;
-}
-
-.portfolio-row a:hover p {
-  visibility: visible;
-}
-
-#BuisnessCard-caption {
-  top: 10%;
-}
-
-#Resume-caption,#Letterhead-caption {
-  top: 40%;
-}
-
-.navbar {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  -webkit-box-align: center;
-  align-items: center;
-}
-
-.navbar > .container {
-  display: flex;
-}
-
-.dropdown-menu {
-  background-color: white !important;
-}
-
-.dropdown-item {
-  color: black !important;
-}
-
-
-/* Drone Club Section */
-
 
 .club-page .section-about-us,
 .club-page .section,
