@@ -1,0 +1,476 @@
+:root {
+  --charcoal-gray: #36454F;
+}
+
+.btn-icon {
+  z-index: 3;
+}
+
+.footer {
+	text-align: center;
+}
+
+.footer .copyright {
+  float: none;
+  text-align: center;
+}
+
+section {
+  background: var(--charcoal-gray);
+  padding: 70px 0;
+  position: relative;
+}
+
+p, h1, h2, h3, h4, h5 {
+  color: white;
+}
+
+.description {
+  color: white;
+  font-weight: 500;
+  text-align: left;
+}
+
+.footer {
+  background: var(--charcoal-gray) !important;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
+
+blockquote {
+  padding: 0% 5% 0% 5%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: var(--charcoal-gray) !important;
+  color: white;
+  font-size: 16px;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  min-height: 100%;
+}
+
+.title {
+  color: rgba(255, 255, 255, 1.0) !important;
+}
+
+.category {
+  color: rgba(255, 255, 255, 1.0) !important;
+}
+
+.btn-default {
+  background-color: var(--charcoal-gray);
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+.bg-primary {
+  background-color: var(--charcoal-gray) !important;
+}
+
+.page-header::before {
+  background-color: rgba(0,0,0, 0.0);
+}
+
+.page-header.page-header-small {
+  height: 60vh;
+  max-height: 440px;
+}
+
+.profile-page .page-header {
+  min-height: 550px;
+}
+
+.profile-page .button-container {
+  text-align: center;
+  margin-top: -99px;
+}
+
+.page-header.page-header-image {
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.page-header {
+  height: 100vh;
+  max-height: 1050px;
+  padding: 0;
+  color: white;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+}
+
+.tooltip {
+  color: #1b1b1b;
+}
+
+hr {
+  border-top: 1px solid rgba(255,255,255, 0.2);
+}
+
+a {
+  color: #ffa554;
+}
+
+.dropdown-menu {
+}
+
+td {
+  padding-bottom: 6px;
+}
+
+.profile-page .photo-container {
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  background: rgba(255,255,255,0.8);
+}
+
+#indexTitleText {
+  max-width:380px;
+  background: rgba(54, 69, 79, 0.9);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+#indexTitleText h3 {
+  font-size: 30px;
+}
+
+.profile-page h5.description {
+  text-align: left;
+}
+
+.portfolio-row canvas {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.portfolio-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.portfolio-row a {
+  text-decoration-line: none !important;
+}
+
+.portfolio-row p {
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 20%;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+
+  visibility: hidden;
+}
+
+.portfolio-row a:hover canvas {
+  opacity: 0.05;
+}
+
+.portfolio-row a:hover p {
+  visibility: visible;
+}
+
+#BuisnessCard-caption {
+  top: 10%;
+}
+
+#Resume-caption,#Letterhead-caption {
+  top: 40%;
+}
+
+.navbar {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.navbar > .container {
+  display: flex;
+}
+
+.dropdown-menu {
+  background-color: white !important;
+}
+
+.dropdown-item {
+  color: black !important;
+}
+
+
+/* Drone Club Section */
+
+
+.club-page .section-about-us,
+.club-page .section,
+.club-page {
+  background-color: rgb(42, 42, 42);
+}
+
+.club-page .page-header-image {
+  background-image: url('img/Building5_2.jpg');
+  z-index: 0;
+}
+
+.section-story-overview .image-container {
+  max-height: 480px;
+  height: auto;
+}
+
+.section-story-overview .image-container img {
+  position: relative;
+}
+
+.section-story-overview p.blockquote {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  top: 0px;
+  left: 30%;
+  background: rgba(11,11,11, 0.4);
+}
+
+.image-container.image-left {
+  margin-right: -50px;
+}
+
+.img-fluid {
+  max-height: 100%;
+  width: auto;
+}
+
+.image-r {
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  z-index: 2;
+}
+
+.img-vert {
+  max-height: 640px !important;
+  max-width: 100% !important;
+}
+
+.section-carousel {
+  height: 940px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  max-height: 800px;
+  width: auto;
+}
+
+.carousel .carousel-inner {
+  box-shadow: none;
+}
+
+.carousel .carousel-inner img {
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-item img {
+  max-height: 800px;
+  width: auto;
+  display: block;
+  margin: auto;
+  border-radius: .25rem;
+}
+
+.carousel-indicators li {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.club-page .page-header .title {
+  font-size: 5em;
+}
+
+.team-player {
+  margin-bottom: 20px;
+}
+
+.team-player img {
+  max-width: 50%;
+  height: auto;
+}
+
+.send-button {
+  margin-top: 10px;
+}
+
+.section-donate {
+  padding-bottom: 300px;
+}
+
+.input-group-addon {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.club-page input.form-control {
+  color: white;
+}
+
+.club-page .textarea-container textarea {
+  padding-left: 10px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  border-bottom: 0px;
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+.club-page .page-header .title {
+  background: rgba(42, 42, 42, 0.7);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.club-page .section:nth-child(4n+2) {
+  background-color: rgba(33, 33, 33, 1.0);
+}
+
+.separator {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1177px) {
+    .col-md-4 {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+  .club-page .section-carousel {
+    height: 900px;
+  }
+}
+
+@media only screen and (max-width: 757px) {
+  .section-story-overview p.blockquote {
+    left: 35%;
+  }
+  .image-container.image-left {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .club-page .section-carousel {
+    height: 940px;
+  }
+  .club-page .page-header .title {
+    font-size: 4em;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .club-page .section-carousel {
+    height: 730px;
+  }
+  .col-md-4 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section-story-overview p.blockquote {
+    left: 0%;
+  }
+  .club-page .section-carousel {
+    height: 600px;
+  }
+  .club-page .page-header .title {
+    font-size: 3em;
+  }
+}
+
+.center {
+    height: 100%;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-team a.btn-icon {
+    position: relative;
+    text-align: center;
+}
+
+.section-team a.btn-icon i {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -7.5px;
+}
+
+#member-table {
+    width: 100%;
+}
+
+#member-table td {
+    padding-top: 10px;
+}
+
+#member-table img {
+    max-height: 100px;
+}
