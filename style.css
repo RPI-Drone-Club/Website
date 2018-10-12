@@ -96,9 +96,11 @@ td {
   padding-bottom: 6px;
 }
 
-.club-page .section-about-us,
-.club-page .section,
-.club-page {
+.section-about-us,
+.section,
+.club-page,
+.members-page,
+.footer.footer-default {
   background-color: rgb(42, 42, 42);
 }
 
@@ -183,7 +185,7 @@ td {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.club-page .page-header .title {
+.page-header .title {
   font-size: 5em;
 }
 
@@ -332,4 +334,26 @@ td {
 
 #member-table img {
     max-height: 100px;
+}
+
+.members-page .section-members {
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+.members-img {
+    margin: 40px;
+    max-height: 500px;
+}
+
+.section-members-title {
+    background-color: rgba(33, 33, 33, 1.0);
+}
+
+.section-members-title h2 {
+    margin-bottom: 0px;
+}
+
+.members-page th {
+    font-size: 26px;
 }
