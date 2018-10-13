@@ -96,6 +96,8 @@ td {
   padding-bottom: 6px;
 }
 
+html,
+body,
 .section-about-us,
 .section,
 .club-page,
@@ -343,11 +345,16 @@ td {
 
 .members-img {
     margin: 40px;
-    max-height: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-height: 50vh;
+    max-width: 100%;
 }
 
 .section-members-title {
     background-color: rgba(33, 33, 33, 1.0);
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .section-members-title h2 {
@@ -356,4 +363,17 @@ td {
 
 .members-page th {
     font-size: 26px;
+}
+
+.members-page tr {
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+
 }
